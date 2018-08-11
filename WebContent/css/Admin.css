@@ -1,0 +1,180 @@
+
+	
+	h2
+	{
+		margin-top:5px;
+		color:lightsteelblue;	
+		font-family: unset;
+		padding-left:25px;
+		line-height: inherit;
+	}
+	
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form 
+	{
+		border-color: grey;
+	}
+ 
+	.navbar-inverse 
+	{
+		background-color: #222;
+		border-color: grey;
+		margin-left:0px;
+		margin-right:0px;
+		border-radius:0px;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form 
+	{
+		background-color: grey;
+		margin-left:0px;
+		margin-right:0px;
+	}
+
+	.container-fluid 
+	{
+		padding-right: 0px;
+		padding-left: 0px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.container 
+	{
+		padding-right: 15px;
+		padding-left: 15px;
+		width:auto;
+	}
+	
+	/* Tab Sections*/
+	
+	/*Section1*/
+	
+	.bs-example
+	{
+		margin-top: 20px;
+		margin-left:40px;
+		margin-right:40px;
+		padding: 0px;
+		
+	}
+
+	.nav-tabs 
+	{
+		margin-bottom: -1px;
+	}
+	}
+	
+	.bs-example h1
+	{
+		text-align:center;
+	}
+	
+	.tab-content>.tab-pane
+	{
+		border-left: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+	}
+	
+	.form-control
+	{
+		height:auto;
+		width:100%;
+		box-shadow: none;
+		color:black;
+	}
+	.form-control:focus
+	{
+		border-color: #5cb85c;
+	}
+    .form-control, .btn
+	{        
+		margin-top:4px;
+        border-radius: 3px;
+    }
+	.Register-form
+	{
+		width: 95%;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.Register-form h2
+	{
+		color: #636363;
+        margin: 0 0 35px;
+		position: relative;
+		text-align: center;
+    }
+	.Register-form h2:before, .Register-form h2:after
+	{
+		content: "";
+		height: 2px;
+		width: 30%;
+		background: #d4d4d4;
+		position: absolute;
+		top: 50%;
+		z-index: 2;
+	}	
+	.Register-form h2:before
+	{
+		left: 0;
+	}
+	.Register-form h2:after
+	{
+		right: 0;
+	}
+
+
+    .Register-form form
+	{
+		color: #999;
+		border-radius: 3px;
+    	margin-bottom: 10px;
+        background: #f9f9f9;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 15px;
+    }
+	.Register-form .form-group{
+		margin-bottom: 18px;
+	}
+	
+	.Register-form .btn{        
+        font-size: 16px;
+        font-weight: bold;		
+		min-width: 140px;
+        outline: none ;
+		margin-top:50px;
+		
+    }
+	
+	/*sectionB*/
+	
+
+
+p {
+    margin: 6px -18px 10px;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.pull-right {
+    float: right!important;
+    margin-right:-15px;
+	margin-top:20px;
+	padding:1px;
+}
+
+.navbar-inverse 
+	{
+		background-color: #222;
+		border-color: grey;
+		margin-left:0px;
+		margin-right:-18px;
+		border-radius:0px;
+	}
+	
+html,body
+{
+	max-width:100%;
+}
+
+
+
